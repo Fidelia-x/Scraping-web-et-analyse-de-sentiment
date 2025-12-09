@@ -8,15 +8,11 @@ Ce projet a pour objectif de :
 - Appliquer une analyse de sentiment sans modèles LLM
 - Produire une visualisation simple basée sur les données collectées
 
----
-
 ## Sources de données
 
 Comme source de données j'ai utilisé Reddit qui fournit des données textuelles très riches. Un post contient souvent le titre,
 un texte long, des commentaires, un score, un subreddit (thème), la date et pleins d'autres choses.
 C’est donc bien pour l’analyse de sentiment parce qu'il y a beaucoup de texte et des opinions fortes.
-
----
 
 ## Fonctionnalités principales
 
@@ -30,8 +26,6 @@ Visualisation simple (matplotlib)
 
 Export des données au format CSV
 
----
-
 ## Installation
 
 Clonez le projet puis installez les dépendances avec :
@@ -40,8 +34,6 @@ Clonez le projet puis installez les dépendances avec :
 pip install -r requirements.txt
 ```
 **Avoir au préalable Anaconda et Jupiter sur son poste pour pourvoir lire le notebook.**
-
----
 
 ## Utilisation
 
@@ -78,7 +70,6 @@ Exemple
 
 plot_sentiment_distribution(df)
 ```
----
 
 ## Structure du projet
 
