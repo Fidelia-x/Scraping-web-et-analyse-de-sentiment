@@ -96,3 +96,34 @@ Test_technique/
 └── requirements.txt
 
 ```
+
+## Limites et contraintes
+
+### Limites du scraping Reddit
+
+- risque de blocage temporaire (403 / 429)
+- dépendance au User-Agent
+- variations fortes d’activité selon les heures
+
+### Limites des données
+
+- textes courts → sentiment parfois ambigu
+- opinions parfois ironiques ou sarcastiques
+- biais liés au subreddit lui-même (actualité → tendance plutôt négative)
+
+### Limites du modèle
+
+- VADER reste un modèle lexical → pas d’interprétation profonde
+- ne comprend pas toujours l’humour, le sarcasme ou le second degré
+
+## Résultat final
+
+-> 50 posts récents ont été extraits
+
+-> Nettoyage effectué
+
+-> Analyse VADER appliquée
+
+-> Visualisation produite sous forme d’un graphique à barres
+
+-> Résultats sauvegardés dans les répertoires data/ et outputs/
