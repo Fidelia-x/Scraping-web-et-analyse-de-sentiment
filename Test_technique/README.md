@@ -39,6 +39,8 @@ Clonez le projet puis installez les dépendances avec :
 ```bash
 pip install -r requirements.txt
 ```
+**Avoir au préalable Anaconda et Jupiter sur son poste pour pourvoir lire le notebook.**
+
 ---
 
 ## Utilisation
